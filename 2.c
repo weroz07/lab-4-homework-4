@@ -7,19 +7,19 @@ int main() {
     int a = 11;
     int b = 3;
 
-    // Без преобразования
+    // ГЃГҐГ§ ГЇГ°ГҐГ®ГЎГ°Г Г§Г®ГўГ Г­ГЁГї
     int x = a / b;
     float y = a / b;
     double z = a / b;
 
-    printf("Без преобразования:\n");
+    printf("ГЃГҐГ§ ГЇГ°ГҐГ®ГЎГ°Г Г§Г®ГўГ Г­ГЁГї:\n");
     printf("x = %d\n", x);
     printf("y = %f\n", y);
     printf("z = %f\n", z);
     printf("\n");
 
-    // С преобразованием
-    printf("С преобразованием:\n");
+    // Г‘ ГЇГ°ГҐГ®ГЎГ°Г Г§Г®ГўГ Г­ГЁГҐГ¬
+    printf("Г‘ ГЇГ°ГҐГ®ГЎГ°Г Г§Г®ГўГ Г­ГЁГҐГ¬:\n");
     printf("(float)a/b = %f\n", (float)a / b);
     printf("a/(float)b = %f\n", a / (float)b);
     printf("(float)(a/b) = %f\n", (float)(a / b));
