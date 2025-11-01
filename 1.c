@@ -13,7 +13,7 @@ int main() {
     double d = 5e-12;
 
     
-    printf("Начальные значения:\n");
+    printf("ГЌГ Г·Г Г«ГјГ­Г»ГҐ Г§Г­Г Г·ГҐГ­ГЁГї:\n");
     printf("char c = %c\n", c);
     printf("int i = %d\n", i);
     printf("float f = %.2f\n", f);
@@ -21,19 +21,19 @@ int main() {
     printf("\n");
 
     
-    printf("Введите новый символ: ");
+    printf("Г‚ГўГҐГ¤ГЁГІГҐ Г­Г®ГўГ»Г© Г±ГЁГ¬ГўГ®Г«: ");
     scanf(" %c", &c);
 
-    printf("Введите новое целое число: ");
+    printf("Г‚ГўГҐГ¤ГЁГІГҐ Г­Г®ГўГ®ГҐ Г¶ГҐГ«Г®ГҐ Г·ГЁГ±Г«Г®: ");
     scanf("%d", &i);
 
-    printf("Введите новое вещественное число: ");
+    printf("Г‚ГўГҐГ¤ГЁГІГҐ Г­Г®ГўГ®ГҐ ГўГҐГ№ГҐГ±ГІГўГҐГ­Г­Г®ГҐ Г·ГЁГ±Г«Г®: ");
     scanf("%f", &f);
 
-    printf("Введите новое double число: ");
+    printf("Г‚ГўГҐГ¤ГЁГІГҐ Г­Г®ГўГ®ГҐ double Г·ГЁГ±Г«Г®: ");
     scanf("%lf", &d);
 
-    printf("\nНовые значения:\n");
+    printf("\nГЌГ®ГўГ»ГҐ Г§Г­Г Г·ГҐГ­ГЁГї:\n");
     printf("char c = %c\n", c);
     printf("int i = %d\n", i);
     printf("float f = %f\n", f);
@@ -43,21 +43,21 @@ int main() {
     
     int celaya_chast = (int)f;
     float drobnaya_chast = f - celaya_chast;
-    printf("Задача 1а:\n");
-    printf("Число: %f\n", f);
-    printf("Целая часть: %d\n", celaya_chast);
-    printf("Дробная часть: %f\n", drobnaya_chast);
+    printf("Г‡Г Г¤Г Г·Г  1Г :\n");
+    printf("Г—ГЁГ±Г«Г®: %f\n", f);
+    printf("Г–ГҐГ«Г Гї Г·Г Г±ГІГј: %d\n", celaya_chast);
+    printf("Г„Г°Г®ГЎГ­Г Гї Г·Г Г±ГІГј: %f\n", drobnaya_chast);
     printf("\n");
 
     
-    printf("Задача 1б:\n");
-    printf("Символ: %c\n", c);
-    printf("Десятичный код: %d\n", c);
-    printf("Шестнадцатеричный код: %X\n", c);
+    printf("Г‡Г Г¤Г Г·Г  1ГЎ:\n");
+    printf("Г‘ГЁГ¬ГўГ®Г«: %c\n", c);
+    printf("Г„ГҐГ±ГїГІГЁГ·Г­Г»Г© ГЄГ®Г¤: %d\n", c);
+    printf("ГГҐГ±ГІГ­Г Г¤Г¶Г ГІГҐГ°ГЁГ·Г­Г»Г© ГЄГ®Г¤: %X\n", c);
     printf("\n");
 
     
-    printf("Задача 1в:\n");
+    printf("Г‡Г Г¤Г Г·Г  1Гў:\n");
     printf("i = %d\n", i);
     printf("1/i = %f\n", 1.0 / i);
 
