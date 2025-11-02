@@ -7,7 +7,7 @@ int main() {
 
     int n;
 
-    printf("Введите трехзначное число: ");
+    printf("Г‚ГўГҐГ¤ГЁГІГҐ ГІГ°ГҐГµГ§Г­Г Г·Г­Г®ГҐ Г·ГЁГ±Г«Г®: ");
     scanf("%d", &n);
 
     int last = n % 10;
@@ -16,10 +16,10 @@ int main() {
     int sum = first + middle + last;
     int reverse = last * 100 + middle * 10 + first;
 
-    printf("Последняя цифра: %d\n", last);
-    printf("Первая цифра: %d\n", first);
-    printf("Сумма цифр: %d\n", sum);
-    printf("Число наоборот: %d\n", reverse);
+    printf("ГЏГ®Г±Г«ГҐГ¤Г­ГїГї Г¶ГЁГґГ°Г : %d\n", last);
+    printf("ГЏГҐГ°ГўГ Гї Г¶ГЁГґГ°Г : %d\n", first);
+    printf("Г‘ГіГ¬Г¬Г  Г¶ГЁГґГ°: %d\n", sum);
+    printf("Г—ГЁГ±Г«Г® Г­Г Г®ГЎГ®Г°Г®ГІ: %d\n", reverse);
 
     return 0;
 }
